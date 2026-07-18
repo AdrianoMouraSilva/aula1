@@ -1,0 +1,68 @@
+:root{
+    --cor-bg: tomato;
+}
+
+body {
+    background-color: var(--cor-bg);
+}
+
+.btn {
+
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 3px;
+}
+
+.btn:hover {
+    border-radius: 8px;
+}
+
+.txt {
+    color: #000;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.vermelho {
+    background-color: red;
+}
+
+.verde {
+    background-color: green;
+}
+
+.azul {
+    background-color: blue;
+
+}
+
+.amarelo {
+    background-color: yellow;
+
+}
+
+.btnVerde {
+    background-color: green;
+    color: #fff;
+}
+
+.btnAzul {
+    background-color: blue;
+    color: #fff;
+}
+
+.btnAmrelo {
+    background-color: yellowgreen;
+    color: #000;
+}
+
+.cardMain {
+    background-color: var(--bg-card);
+    border-radius: var(--radius);
+    width: 340px;
+    overflow: hidden;
+    /* Garante que a imagem respeite o arredondamento do card */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    padding: 10px;
+}
