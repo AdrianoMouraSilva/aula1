@@ -17,6 +17,8 @@ function trocarCor() {
     // corpoPrincipal.classList.add(cor.value);
 }
 
+
+
 btnMensagem.addEventListener("click",mostrarMensagem)
 
 btnTrocarCor.addEventListener("click",trocarCor)
